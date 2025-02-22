@@ -48,5 +48,11 @@ public class Client
 
         Pair.doSomething("Bhanu",5.9);
         p.doSomethingElse("Bhanu");
+
+        // Type Erasure
+        TypeErasure<String> t=new TypeErasure<>();
+        System.out.println(t);
+        t.setContent("Bhanu");
+        System.out.println(t);
     }
 }
