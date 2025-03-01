@@ -13,15 +13,13 @@ public class CustomException
 
     }
 
-    private static void legalAge(int age) throws Exception
-    {
-        if(age>18)
-        {
+    private static void legalAge(int age) throws Exception {
+
+        if (age > 18) {
             System.out.println("You are legal");
-        }
-        else
-        {
+        } else {
             throw new Exception("Age is Not Legal");
         }
+
     }
 }
